@@ -1,3 +1,4 @@
+// File: Kalkulator.java
 public class Kalkulator {
 
     // Static Method: Penjumlahan
@@ -31,7 +32,7 @@ public class Kalkulator {
         System.out.println("Pecahan sederhana: " + pembilang + "/" + penyebut);
     }
 
-    // Helper untuk mencari FPB
+    // Helper: Mencari FPB (Faktor Persekutuan Terbesar)
     private int cariFPB(int a, int b) {
         while (b != 0) {
             int sisa = a % b;

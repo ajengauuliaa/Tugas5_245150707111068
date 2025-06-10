@@ -29,7 +29,7 @@ public class Jaket {
         System.out.println("Total harga: Rp " + total);
     }
 
-    // Untuk testing
+
     public static void main(String[] args) {
         // Tes Kalkulator
         Kalkulator k = new Kalkulator();
